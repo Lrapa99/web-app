@@ -1,0 +1,157 @@
+.all-content {
+  width: 370px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.count-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search {
+  background: #ffa410;
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffa410;
+}
+
+.text span {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.content-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-products {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card img {
+  cursor: pointer;
+  width: 100px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.card img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.card p {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.c-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  background: #ffa410;
+  border: 5px solid #ffa410;
+  border-radius: 29px;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.opc-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.opc-icon img {
+  width: 24px;
+}
+.opc-icon:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.opc-icon span {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
